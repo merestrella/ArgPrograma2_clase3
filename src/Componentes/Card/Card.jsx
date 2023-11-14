@@ -2,7 +2,7 @@
 
 const Card = ({ title, price, image, descripcion, stock, sku }) => {
   return (
-    <section className="flex justify-center m-auto">
+    <section className="flex justify-center m-auto max-[600px]:block">
       <div className="flex cursor-pointer">
         <img src={image} width={500} />
       </div>

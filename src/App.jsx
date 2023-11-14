@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <nav className="flex place-content-around bg-slate-600 text-white py-4 items-center text-lg ">
+      <nav className="flex place-content-around bg-slate-600 text-white py-4 items-center text-lg  ">
         <a href="/">
           <img
             src="https://cdn.dcshoes.com.ar/media/logo/stores/2/logo-dcshoes.png"
@@ -26,10 +26,18 @@ function App() {
           />
         </a>
 
-        <a href="/">Remeras</a>
-        <a href="/">Pantalones</a>
-        <a href="/">Calzado</a>
-        <a href="/">Camperas</a>
+        <a className="max-[600px]:hidden" href="/">
+          Remeras
+        </a>
+        <a className="max-[600px]:hidden" href="/">
+          Pantalones
+        </a>
+        <a className="max-[600px]:hidden" href="/">
+          Calzado
+        </a>
+        <a className="max-[600px]:hidden" href="/">
+          Camperas
+        </a>
         <a href="/">
           <IconShop width={30} />
         </a>
