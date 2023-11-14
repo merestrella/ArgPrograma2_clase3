@@ -10,3 +10,7 @@ ecommerce, se deberán visualizar los siguientes datos:
 ● SKU
 ● Cantidad disponible
 Realizar un maquetado con los datos, desarrollado con componentes.
+
+Herramientas utilizadas:
+-React Vite
+-Tailwind
