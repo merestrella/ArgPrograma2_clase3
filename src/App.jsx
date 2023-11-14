@@ -42,7 +42,7 @@ function App() {
           <IconShop width={30} />
         </a>
       </nav>
-      <div className=" shadow-gray-200 items-center py-7">
+      <div className=" shadow-gray-200 items-center p-7">
         {productos.map(
           ({ id, title, sku, price, imageUrl, stock, descripcion }) => (
             <Card
@@ -57,6 +57,12 @@ function App() {
           )
         )}
       </div>
+      <footer className="flex place-content-around bg-slate-600 text-white py-7 items-center max-[600px]:flex-column">
+        <a href="/">Locales</a>
+        <a href="/">Preguntas Frecuentes</a>
+        <a href="/">Contacto</a>
+        <a href="/">Sobre Nosotros</a>
+      </footer>
     </>
   );
 }
